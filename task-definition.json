@@ -3,11 +3,11 @@
     {
       "name": "demo",
       "image": "378836287872.dkr.ecr.us-east-1.amazonaws.com/demo:revision_1",
-      "memory": "256",
+      "memory": 256,
       "essential": true,
       "portMappings": [
         {
-          "containerPort": "8080",
+          "containerPort": 8080,
           "protocol": "tcp"
         }
       ]
